@@ -1,0 +1,189 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,800);
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	background-color: #f0efef;
+	color: #000;
+	line-height: 1.5;
+	font-family: Open Sans;
+}
+
+h1 {font-weight: light;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	max-width: 90%;
+  margin: 0 auto;
+  width: 1024px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	height: 400px;
+}
+
+
+.hero_title {
+	font-weight: 800;
+	font-size: xx-large;
+	color: white;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+.subtitle {
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.get {
+	text-align: center;
+}
+
+.cta_get {
+	font-weight: 800;
+	color: #033048;
+	background-color: #f9e42e;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.benefits_title {
+	font-weight: 600;
+	padding-left: 40px;
+}
+
+.benefits_description {
+	font-weight: 300;
+	padding-left: 45px;
+	padding-right: 30%;
+}
+
+.benefits_list {
+	font-weight: 300;
+	padding-left: 100px;
+	padding-bottom: 20px;
+	padding-right: 30%;
+}
+
+.amanda_content {
+	background: url("../images/testimonial_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	height: 200px;
+	color: white;
+}
+
+.amanda_quote {
+	font-weight: 300;
+	font-style: italic;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.amanda_signature {
+	font-weight: 600;
+	color: white;
+	text-align: center;
+}
+
+.sign_up_now {
+	background-color: #f9e42e;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.cta_sign {
+	font-weight: 800;
+	background-color: #033048;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.footer_content {
+	background-color: #121212;
+	color: #f9e42e;
+	margin-top: -20px;
+}
+
+.footer_title {
+	font-weight: 800;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.social_links {
+	text-align: center;
+	justify-content: space-between;
+}
+
+.copyright {
+	font-weight: 600;
+	font-size: xx-small;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
